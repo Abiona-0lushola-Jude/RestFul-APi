@@ -1,0 +1,26 @@
+GET http://localhost:800/subscribers
+
+
+###
+GET http://localhost:800/subscribers/62d69a4fb55d4caf171d8861
+
+
+
+
+
+###
+POST  http://localhost:800/subscribers
+Content-Type: application/json
+
+{
+    "name":"Gbenga",
+    "subscribedToChannel":"web dev"
+}    
+###
+PATCH   http://localhost:800/subscribers/62d69a62b55d4caf171d8863
+Content-Type: application/json
+
+{
+    "name": "Femi",
+    "subscribedToChannel":"youTube"
+}
